@@ -894,18 +894,18 @@
 
 
 			document.addEventListener('keydown', function(event){
-				if(event.keyCode==37) leftArrowDown = true;
-				if(event.keyCode==39) rightArrowDown = true;
-				if(event.keyCode==38) upArrowDown = true;
-				if(event.keyCode==32) spaceArrowDown = true;
+				if(event.key==s) leftArrowDown = true;
+				if(event.key==d) rightArrowDown = true;
+				if(event.key==w) upArrowDown = true;
+				if(event.key==s ) spaceArrowDown = true;
 			
 			});
 
 			document.addEventListener('keyup', function(event){
-				if(event.keyCode==37) leftArrowDown = false;
-				if(event.keyCode==39) rightArrowDown = false;
-				if(event.keyCode==38) upArrowDown = false;
-				if(event.keyCode==32) spaceArrowDown = false;
+				if(event.key==a) leftArrowDown = false;
+				if(event.key==d) rightArrowDown = false;
+				if(event.key==w) upArrowDown = false;
+				if(event.key==s ) spaceArrowDown = false;
 			});
 
 			
